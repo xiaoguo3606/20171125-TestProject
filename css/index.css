@@ -1,0 +1,48 @@
+
+html{
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#75abf1,#9ecc4f);
+	position: relative;
+	overflow: hidden;
+}
+
+.index_bg{
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 50%;
+	z-index: 1;
+}
+.logo{
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	z-index: 2;
+	width: 150px;
+}
+.content{
+	width: 100%;
+	position: absolute;
+	top: 30%;
+	left: 0;
+	z-index: 3;
+	text-align: center;
+	background: rgba(255,255,255,0.6);
+	display: none;
+}
+.content p{
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+	color: #ff631e;
+	text-shadow: 0 5px 5px #fff;
+	opacity: 0;
+}
+.content p em{
+	font-size: 2rem;
+	color: #f00;
+}
