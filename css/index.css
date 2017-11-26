@@ -46,3 +46,31 @@ body{
 	font-size: 2rem;
 	color: #f00;
 }
+
+.btn{
+	display: block;
+	position: absolute;
+	text-align: center;
+	width: 200px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 30px;
+	left: 50%;
+	bottom: 10%;
+	margin-left: -100px;
+	z-index: 3;
+	text-decoration: none;
+	color: red;
+	background: yellow;
+	border: 2px solid red;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(255,255,255,0.5);
+	animation: bling 1s infinite;
+	
+	/*display: none;*/
+}
+
+@keyframes bling{
+	form {font-size: 30px;}
+	to {font-size: 32px;}
+}
